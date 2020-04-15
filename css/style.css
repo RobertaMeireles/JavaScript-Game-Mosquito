@@ -1,0 +1,55 @@
+html{
+    cursor: url(../imagens/mata_mosca.png) 30 30, auto;
+}
+
+body{
+    background: url(../imagens/bg.jpg) no-repeat top center;
+}
+
+
+.mosquito1{
+    width: 50px;
+    height: 50px;
+}
+
+.mosquito2{
+    width: 70px;
+    height: 70px;
+}
+
+.mosquito3{
+    width: 90px;
+    height: 90px;
+}
+
+.sideA{
+    /*1 significa manter a posiçao original*/
+    transform: scaleX(1);
+}
+
+.sideB{
+    /*-1 fazer a inversao da imagem na horizontal*/
+    transform: scaleX(-1);
+}
+
+.painel{
+    position: absolute;
+    width: 200px;
+    padding: 15px;
+    left: 43px;
+    bottom: 0;
+    border-top: 1px solid #fff;
+    background-color: #fff;
+    opacity: 0.7;
+}
+
+.life{
+    float: left;
+    padding-right: 1%;
+}
+
+.time{
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+}
