@@ -1,1 +1,1 @@
-Game made with JavaScript
+# Game developed in JavaScript
